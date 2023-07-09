@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "recipex-7104b": {
+      "hosting": {
+        "recipeX": [
+          "recipex-7104b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "recipex-7104b"
+  }
+}
