@@ -1,15 +1,15 @@
 <div class="w-full h-full bg-black/50 backdrop-blur-sm flex items-center justify-center">
   <div class="w-1/2 h-screen bg-white border-r-2 flex items-center justify-center bg-no-repeat bg-cover "
-    style="background-image: url({{food?.recipe?.images?.REGULAR?.url}});">
+    style="background-image: url({{food?.recipe?.images?.REGULAR?.url}});" id="img-bg">
     <img [src]="food?.recipe?.images?.REGULAR?.url" alt="" class="rounded-full w-auto object-cover shadow-xl border-2
-      border-black hover:scale-105 ease-in-out duration-1000 hover:cursor-pointer">
+      border-black hover:scale-105 ease-in-out duration-1000 hover:cursor-pointer hover:shadow-2xl hover:shadow-emerald-500">
   </div>
-  <div class="w-1/2 h-max py-5 border-r-2 flex font-pro text-center" id="bg">
-      <div class="w-full h-max py-2 gapy-1">
+  <div class="w-1/2 h-screen py-5 border-r-2  font-pro text-center flex items-center justify-center p-10" id="bg">
+      <div class="h-max w-max py-2 px-2 gap-y-1 bg-blue-50 rounded-md shadow-md bg-opacity-50">
         <h1 class="text-3xl text-red-500">{{food?.recipe?.label}}</h1>
         <h1 class="text-xl">Ingredients:</h1>
         <div class="w-ful h-max">
-          <ul style="list-style: circle;">
+          <ul>
             <li *ngFor="let Ingredients of food.recipe.ingredientLines">{{Ingredients}}</li>
           </ul>
         </div>
