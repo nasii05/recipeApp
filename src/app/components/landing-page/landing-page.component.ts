@@ -13,12 +13,12 @@ export class LandingPageComponent {
   data!:any;
 
   constructor(private recipe:RecipeService){
-    // this.getrecipe()
+
   }
 
 
   ngOnInit(){
-
+    this.getrecipe('ab')
   }
 
   getrecipe(input:any){

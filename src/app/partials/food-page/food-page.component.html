@@ -10,8 +10,14 @@
         <h1 class="text-xl">Ingredients:</h1>
         <div class="w-ful h-max">
           <ul>
-            <li *ngFor="let Ingredients of food.recipe.ingredientLines">{{Ingredients}}</li>
+            <li *ngFor="let Ingredients of food?.recipe?.ingredientLines">{{Ingredients}}</li>
           </ul>
+        </div>
+        <div class="w-full h-max py-2">
+          <button class="bg-blue-500 text-white rounded-md active:bg-blue-700 h-10 px-5 hover:bg-blue-600 text-center"
+           routerLink="/">
+            back to home
+          </button>
         </div>
       </div>
   </div>
