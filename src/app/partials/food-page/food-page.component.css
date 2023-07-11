@@ -1,3 +1,10 @@
 .image{
   background-image: var('food?.recipe?.images?.REGULAR?.url');
 }
+
+#bg{
+  background-image: url('../../../assets/img/bg-gif.gif');
+  image-resolution: 300dpi;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
