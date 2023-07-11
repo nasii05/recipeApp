@@ -15,6 +15,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
 import { CardflipComponent } from './cardflip/cardflip.component';
 import { LoadingComponent } from './components/partials/loading/loading.component';
 import { LoadingInterceptor } from './loading.interceptor';
+import { FoodPageComponent } from './partials/food-page/food-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { LoadingInterceptor } from './loading.interceptor';
     LandingPageComponent,
     CardflipComponent,
     LoadingComponent,
+    FoodPageComponent,
   ],
   imports: [
     BrowserModule,

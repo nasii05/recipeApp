@@ -25,6 +25,10 @@ export class RecipeService {
     })
   }
 
+  getFood(link:string){
+    return this.http.get<any>(link)
+  }
+
 
 
 }

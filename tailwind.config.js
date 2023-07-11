@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily:{
         bebas: ['Bebas Neue','sans-serif'],
-        pro:['Prompt', 'sans-serif']
+        pro:['Prompt', 'sans-serif'],
+        indie:['Indie Flower', 'cursive']
       }
     },
   },

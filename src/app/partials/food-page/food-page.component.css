@@ -1,0 +1,3 @@
+.image{
+  background-image: var('food?.recipe?.images?.REGULAR?.url');
+}
